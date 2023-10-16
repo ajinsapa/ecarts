@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "productName": " Floral Kurta Set",
+      "categoryid": 2,
+      "description": "Floral Embroidered Straight Kurta Set",
+      "price": "1325",
+      "image": "https://i.postimg.cc/zvdDgpds/download-15.jpg",
+      "rating": 5,
+      "review": 25,
+      "warranty": 1,
+      "is_available": true
+    },
+    {
+      "id": 3,
+      "productName": "Bag",
+      "categoryid": 3,
+      "description": "Logo Print Waist Pouch with Zip Closure",
+      "price": 450,
+      "image": "https://i.postimg.cc/fRDSXgTP/download-13.jpg",
+      "rating": 5,
+      "review": 15,
+      "warranty": 1,
+      "is_available": true
+    },
+    {
+      "id": 4,
+      "productName": "Slim Fit Jeans",
+      "categoryid": 1,
+      "description": "DNMX Mid-Wash Slim Fit Jeans",
+      "price": 931,
+      "image": "https://i.postimg.cc/bvCjLd0n/download-16.jpg",
+      "rating": 4.5,
+      "review": 30,
+      "warranty": 1,
+      "is_available": true
+    },
+    {
+      "id": 5,
+      "productName": "Printed Colour-Block T-Shirt",
+      "categoryid": 1,
+      "description": "THE HOLLANDER Graphic Printed Colour-Block T-Shirt",
+      "price": "335",
+      "image": "https://i.postimg.cc/ZRXP8FCM/download-17.jpg",
+      "rating": 5,
+      "review": 150,
+      "warranty": 1,
+      "is_available": false
+    },
+    {
+      "id": 6,
+      "productName": "Printed Hoodie",
+      "categoryid": 1,
+      "description": "Printed Hoodie with Kangaroo Pocket",
+      "price": 2870,
+      "image": "https://i.postimg.cc/ZRv5XXLV/download-19.jpg",
+      "rating": 5,
+      "review": 25,
+      "warranty": 1,
+      "is_available": true
+    },
+    {
+      "id": 7,
+      "productName": "Silk Saree",
+      "categoryid": 2,
+      "description": "ZIKARA Woven Banarasi Silk Saree",
+      "price": 1000,
+      "image": "https://i.postimg.cc/HWtqdBP2/download-20.jpg",
+      "rating": 5,
+      "review": 200,
+      "warranty": 1,
+      "is_available": true
+    },
+    {
+      "id": 8,
+      "productName": "Crop Top",
+      "categoryid": 2,
+      "description": "CLAFOUTIS Striped Slim Fit Crop Top",
+      "price": "250",
+      "image": "https://i.postimg.cc/B6RB09f6/download-21.jpg",
+      "rating": 3,
+      "review": 15,
+      "warranty": 1,
+      "is_available": true
+    },
+    {
+      "id": 9,
+      "productName": "Jumpsuit",
+      "categoryid": 2,
+      "description": "THE DRY STATE  Jumpsuit with Insert Pockets",
+      "price": 700,
+      "image": "https://i.postimg.cc/3N1pwdkt/download-22.jpg",
+      "rating": 5,
+      "review": 25,
+      "warranty": 1,
+      "is_available": true
+    },
+    {
+      "id": 10,
+      "productName": "Belt",
+      "categoryid": 3,
+      "description": "ARMANI EXCHANGE Reversible Leather Logo Belt",
+      "price": 7999,
+      "image": "https://i.postimg.cc/9QxFxy9m/download-23.jpg",
+      "rating": 5,
+      "review": 70,
+      "warranty": 2,
+      "is_available": true
+    },
+    {
+      "id": 11,
+      "productName": "Bi-Fold Wallet",
+      "categoryid": 3,
+      "description": "TOMMY HILFIGER Colourblock Bi-Fold Wallet with Branding",
+      "price": 1594,
+      "image": "https://i.postimg.cc/zBFQjFLp/download-24.jpg",
+      "rating": 5,
+      "review": 25,
+      "warranty": 2,
+      "is_available": false
+    },
+    {
+      "id": 12,
+      "productName": "Travel Bag",
+      "categoryid": 3,
+      "description": "F GEAR 6 Laptop Travel Bag",
+      "price": 1432,
+      "image": "https://i.postimg.cc/ZRWc9P8C/download-25.jpg",
+      "rating": 5,
+      "review": 100,
+      "warranty": 1,
+      "is_available": true
+    },
+    {
+      "id": "1",
+      "productName": "Floral Print 2Piece Suit Set",
+      "categoryid": "2",
+      "description": "KIANA HOUSE OF FASHION Floral Print 2-Piece Suit Set",
+      "price": "1320",
+      "image": "https://i.postimg.cc/yxwMppZj/download-26.jpg",
+      "rating": "5",
+      "review": "30",
+      "warranty": "1",
+      "is_available": "true"
+    }
+  ]
+}

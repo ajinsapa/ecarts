@@ -1,0 +1,102 @@
+<!-- Header-->
+<header class="bg-dark py-5">
+    <div id="carouselExampleAutoplaying" class="carousel slide  " data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active c1">
+            <img src="https://i.postimg.cc/pLzkmpnD/images-5.jpg" class="d-block w-50 c2  ms-5 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.postimg.cc/j533TmG2/images-12.jpg" class="d-block w-50 c2 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.postimg.cc/PxbZzwMj/images-2.png" class="d-block w-50 c2" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</header>
+
+
+<div  class="container">
+<div class="row  text-center">
+
+  <div class="col-3 " (click)="categoryProduct('')" style="background-color: black;color: white;">
+
+    <h3>All Items</h3>
+
+
+</div>
+<div  (click)="categoryProduct(1)" class="col-3" style="background-color: black;color: white;">
+
+  <h3>Men's</h3>
+
+</div>
+<div   (click)="categoryProduct(2)" class="col-3" style="background-color: black;color: white;">
+<h3>Women's</h3>
+
+</div>
+
+<div  (click)="categoryProduct(3)" class="col-3"style="background-color: black;color: white;">
+  <h3>Accessories</h3>
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Section-->
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <div *ngFor="let i of categoryProducts |  search:searchString:'productName' " class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img style="height: 200px;" class="card-img-top" src="{{i.image}}" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">{{i.productName}}</h5>
+                            <!-- Product price-->
+                          {{i.price}}   Rs
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="products/view-products/{{i.id}}">View </a></div>
+                    </div>
+                </div>
+            </div>
+            >
+        </div>
+
+
+
+
+    </div>
+
+</section>
